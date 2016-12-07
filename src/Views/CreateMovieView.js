@@ -2,7 +2,7 @@
  * Created by annity on 4.12.2016 г..
  */
 import React, { Component } from 'react';
-
+import './CreateMovieView.css';
 export default class CreateMovieView extends Component {
     render() {
         return (

@@ -2,7 +2,7 @@
  * Created by annity on 4.12.2016 г..
  */
 import React, { Component } from 'react';
-
+import './DeleteMovieView.css';
 export default class DeleteMovieView extends Component {
     render() {
         return (

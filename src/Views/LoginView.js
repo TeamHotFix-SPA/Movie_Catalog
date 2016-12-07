@@ -2,7 +2,7 @@
  * Created by annity on 30.11.2016 г..
  */
 import React, { Component } from 'react';
-
+import './LoginView.css';
 export default class LoginView extends Component {
     render() {
         return (

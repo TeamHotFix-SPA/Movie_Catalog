@@ -1,0 +1,18 @@
+.home-view {
+    text-align: center;
+    font-size: 200%;
+    color: #0ce3ac;
+    text-shadow: 3px 3px #000000;
+    padding-top: 250px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.home-view h1 {
+    font-weight: bold;
+    font-size: 260%;
+}
+.home-view p {
+    padding-top: 30px;
+    border: 2px solid;
+    height: 140px;
+}

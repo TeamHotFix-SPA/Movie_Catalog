@@ -2,7 +2,7 @@
  * Created by annity on 5.12.2016 г..
  */
 import React, { Component } from 'react';
-
+import './DetailsMovieView.css';
 export default class DetailsMovieView extends Component {
     render() {
         return (
@@ -43,6 +43,12 @@ export default class DetailsMovieView extends Component {
                            ref={e => this.yearField = e} />
                 </label>
                 <br/>
+                <div>
+                    <input type="file" id="upload-file" />
+                    <button id="btn-upload-file">Upload</button>
+                    <ul id="elements">
+                    </ul>
+                </div>
             </form>
 
         );

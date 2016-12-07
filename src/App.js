@@ -16,7 +16,6 @@ import UsersView from './Views/UsersView';
 import KinveyRequester from './KinveyRequester';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-
 export default class App extends Component {
     constructor(props) {
         super(props);
@@ -43,24 +42,27 @@ export default class App extends Component {
                 <div id="errorBox">Error</div>
             </header>
           <main id="main">
+              This is my first React Application!!!
           </main>
           <Footer />
       </div>
     );
   }
   componentDidMount() {
+        // Attach global AJAX "loading" event handlers
         $(document).on({
             ajaxStart: function() { $("#loadingBox").show() },
             ajaxStop: function() { $("#loadingBox").hide() }
         });
-
+        // Attach a global AJAX error handler
         $(document).ajaxError(this.handleAjaxError.bind(this));
 
+        // Hide the info / error boxes when clicked
         $("#infoBox, #errorBox").click(function() {
             $(this).fadeOut();
         });
 
-
+        // Initially load the "Home" view when the app starts
         this.showHomeView();
     }
     handleAjaxError(event, response) {
@@ -85,14 +87,12 @@ export default class App extends Component {
             document.getElementById('main'));
         $('#errorBox').hide();
     }
-
     showHomeView() {
         this.showView(<HomeView username={this.state.username} />);
     }
     showLoginView() {
         this.showView(<LoginView onsubmit={this.login.bind(this)} />);
     }
-
     login(username, password) {
         KinveyRequester.loginUser(username, password)
             .then(loginSuccess.bind(this));

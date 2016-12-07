@@ -9,10 +9,10 @@
   cursor: pointer;
 }
 #loadingBox {
-  background: #7CB3E9;
+  background: #0ce3ac;
 }
 #infoBox {
-  background: #393;
+  background: lightblue;
 }
 #errorBox {
   background: #F50;
@@ -20,7 +20,6 @@
 #main {
   margin: 0 10px 20px 10px;
 }
-
 table th {
   background-color: lightblue;
   padding: 10px;
@@ -28,4 +27,7 @@ table th {
 table td {
   padding: 5px 10px;
   background-color: #1b1b1b;
+}
+#home {
+  text-align: center;
 }

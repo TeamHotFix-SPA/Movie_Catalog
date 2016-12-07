@@ -2,7 +2,7 @@
  * Created by annity on 4.12.2016 г..
  */
 import React, { Component } from 'react';
-
+import './UsersView.css';
 export default class UsersView extends Component {
     render() {
         let userRows = this.props.users.map(user =>

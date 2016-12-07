@@ -2,7 +2,7 @@
  * Created by annity on 4.12.2016 г..
  */
 import React, { Component } from 'react';
-
+import './MoviesView.css';
 export default class MoviesView extends Component{
     render() {
         let movieRows = this.props.movies.map(movie =>

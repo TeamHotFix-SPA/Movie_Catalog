@@ -1,0 +1,20 @@
+.users-view {
+    text-align: center;
+
+}
+.users-view h1 {
+    text-shadow: 3px 3px #000000;
+}
+.users-view th {
+    text-shadow: 2px 1px #000000;
+}
+.users-view table {
+    height: 0px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+
+}
+.users-view td:hover{background-color:#0ce3ac
+}

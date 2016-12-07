@@ -2,6 +2,7 @@
  * Created by annity on 30.11.2016 г..
  */
 import React, { Component } from 'react';
+import './RegisterView.css';
 export default class RegisterView extends Component {
     render() {
         return (

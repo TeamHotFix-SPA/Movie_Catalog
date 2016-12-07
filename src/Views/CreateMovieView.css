@@ -1,4 +1,4 @@
-.navigation-bar {
+.create-movie-view {
     text-align: center;
     padding: 12px 5px;
     line-height: 1.5;
@@ -7,18 +7,8 @@
     padding-right: 1px;
 }
 
-.navigation-bar a {
+.create-movie-view a {
     text-decoration: none;
     text-align: center;
     padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.navigation-bar a:hover {
-    background: black;
-}
-.navigation-bar .loggedInUser {
-    float: right;
-    margin-right: 10px;
-    text-align: center;
 }

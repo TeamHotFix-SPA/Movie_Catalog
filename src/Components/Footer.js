@@ -7,7 +7,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                &#9400; Movie Catalog-2016
+                &#9400; Copyright  Movie Catalog - 2016
             </footer>
         );
     }

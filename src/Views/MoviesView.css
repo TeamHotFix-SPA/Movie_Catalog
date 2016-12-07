@@ -1,0 +1,10 @@
+.movies-view h1{
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+.movies-view th{
+    text-shadow: 1.5px 1.5px #000000;
+}
+.movies-view td:hover {
+    background-color: #0ce3ac;
+}
